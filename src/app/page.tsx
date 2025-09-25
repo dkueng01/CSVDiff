@@ -131,7 +131,7 @@ export default function CSVComparePage() {
           <div className="text-center">
             <button
               onClick={compareCSVs}
-              className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
+              className="bg-primary text-primary-foreground cursor-pointer px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
             >
               Compare Files
             </button>
